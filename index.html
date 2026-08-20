@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryuzz | Full Stack Developer Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+ 
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <div class="toast-container" id="toastContainer"></div>
+
+    <header class="header" id="header">
+        <div class="container navbar">
+            <a href="#home" class="logo">F4IRUZZ<span class="dot"></span></a>
+
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section home-section">
+            <div class="container home-content">
+                <div class="home-text reveal">
+                    <div class="badge">
+                        <i class="fa-solid fa-code"></i> WELCOME TO MY PORTFOLIO
+                    </div>
+                    <h1>Halo, Saya <br><span class="gradient-text">Muhammad Fairuz Shidqi</span></h1>
+                    <h3 class="role-text">Saya seorang <span id="typing-text" class="typed-highlight"></span></h3>
+                    <p class="description">
+                        Siswa berbakat dengan minat mendalam pada pengembangan web Full-Stack. Berfokus mempelajari HTML5, CSS3, dan JavaScript untuk menciptakan pengalaman web modern, cepat, dan responsif.
+                    </p>
+                    <div class="home-buttons">
+                        <a class="btn btn-primary" href="#projects">
+                            <span>Lihat Project</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a class="btn btn-secondary" href="https://www.tiktok.com/@ryuzzcode" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-tiktok"></i> TikTok Saya
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-image-wrapper reveal">
+                    <div class="avatar-card">
+                        <img src="Assets/img/WhatsApp Image 2026-08-12 at 08.57.32.jpeg" alt="Muhammad Fairuz Shidqi" class="avatar-img">
+                        <div class="card-glass-tag">
+                            <i class="fa-solid fa-graduation-cap"></i> IDN Mesir Student
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-label">ABOUT ME</p>
+                    <h2 class="section-title">Tentang <span class="gradient-text">Saya</span></h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card reveal">
+                        <div class="card-icon"><i class="fa-solid fa-user-astronaut"></i></div>
+                        <h3>👋 Perkenalkan</h3>
+                        <p>
+                            Nama panggilan saya <strong class="highlight">Fairuz</strong>. Saya adalah seorang pelajar di <strong>IDN Mesir</strong> yang berasal dari Jawa Tengah, lahir pada tanggal <strong>22 Mei 2011</strong>.
+                        </p>
+                        <p>
+                            Saat ini saya menempuh pendidikan di SMK jurusan <strong>Rekayasa Perangkat Lunak (RPL)</strong> dan aktif mengasah kemampuan merancang serta membangun aplikasi web modern.
+                        </p>
+                    </div>
+
+                    <div class="about-card reveal">
+                        <div class="card-icon"><i class="fa-solid fa-fire"></i></div>
+                        <h3>🔥 Hobi & Minat</h3>
+                        <ul class="hobby-list">
+                            <li>
+                                <div class="hobby-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                                <div>
+                                    <strong>Programming</strong>
+                                    <span>Membuat website & belajar arsitektur coding</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hobby-icon"><i class="fa-solid fa-gamepad"></i></div>
+                                <div>
+                                    <strong>Bermain Game</strong>
+                                    <span>Mengisi waktu luang & mengasah pemikiran kritis</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hobby-icon"><i class="fa-solid fa-headphones"></i></div>
+                                <div>
+                                    <strong>Mendengarkan Musik</strong>
+                                    <span>Meningkatkan kreativitas dan fokus saat koding</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-label">MY ABILITY</p>
+                    <h2 class="section-title">Keahlian <span class="gradient-text">Saya</span></h2>
+                </div>
+
+                <div class="skill-grid">
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-html5 skill-icon html-color"></i>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Membangun struktur dokumen web yang rapi, semantik, dan ramah SEO.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-css3-alt skill-icon css-color"></i>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <h3>CSS3 & Styling</h3>
+                        <p>Mendesain tata letak yang indah, animasi halus, dan antarmuka responsif.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-js skill-icon js-color"></i>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Mengembangkan logika interaktif dan fungsionalitas dinamis pada web.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-label">MY WORK</p>
+                    <h2 class="section-title">Project <span class="gradient-text">Terbaru</span></h2>
+                </div>
+
+                <div class="project-grid">
+                    <div class="project-card reveal">
+                        <div class="project-badge">01</div>
+                        <div class="project-icon-box"><i class="fa-solid fa-address-card"></i></div>
+                        <h3>Website Portfolio</h3>
+                        <p>Website portofolio pribadi responsif sebagai wadah menampilkan karya, profil, dan keahlian.</p>
+                        <div class="project-footer">
+                            <span class="year"><i class="fa-regular fa-calendar"></i> 2026</span>
+                            <span class="status status-done"><i class="fa-solid fa-circle-check"></i> Selesai</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-badge">02</div>
+                        <div class="project-icon-box"><i class="fa-solid fa-shirt"></i></div>
+                        <h3>Website Konveksi Shidqia</h3>
+                        <p>Sistem profil bisnis digital untuk mempromosikan produk serta layanan usaha Konveksi Shidqia.</p>
+                        <div class="project-footer">
+                            <span class="year"><i class="fa-regular fa-calendar"></i> 2026</span>
+                            <span class="status status-done"><i class="fa-solid fa-circle-check"></i> Selesai</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-badge">03</div>
+                        <div class="project-icon-box"><i class="fa-solid fa-rocket"></i></div>
+                        <h3>Fiverr Freelance</h3>
+                        <p>Layanan pemrograman web independen untuk menyelesaikan berbagai pesanan klien global.</p>
+                        <div class="project-footer">
+                            <span class="year"><i class="fa-regular fa-calendar"></i> 2026</span>
+                            <span class="status status-done"><i class="fa-solid fa-circle-check"></i> Selesai</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-label">GET IN TOUCH</p>
+                    <h2 class="section-title">Hubungi <span class="gradient-text">Saya</span></h2>
+                </div>
+
+                <div class="contact-wrapper reveal">
+                    <div class="contact-info">
+                        <h3>Mari Bekerja Sama! 👋</h3>
+                        <p>Punya ide menarik atau sekadar ingin berdiskusi seputar web development? Jangan ragu untuk menghubungi saya!</p>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <small>Email</small>
+                                <strong>fairuzshidqi@gmail.com</strong>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-tiktok"></i></div>
+                            <div>
+                                <small>Social Media</small>
+                                <strong>Fairuz_22</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm" action="#" method="post">
+                        <div class="form-group">
+                            <label for="nama"><i class="fa-solid fa-user"></i> Nama</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email"><i class="fa-solid fa-at"></i> Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email Anda..." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan"><i class="fa-solid fa-message"></i> Pesan</label>
+                            <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                        </div>
+
+                        <button class="btn btn-primary btn-submit" type="submit">
+                            <span>Kirim Pesan</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">F4IRUZZ<span class="dot"></span></a>
+            <p>&copy; 2026 Ryuzz Portfolio. All rights reserved.</p>
+            <p class="footer-credit">Built with HTML, CSS & JavaScript </p>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById("header");
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+        const typingText = document.getElementById("typing-text");
+        const contactForm = document.getElementById("contactForm");
+        const toastContainer = document.getElementById("toastContainer");
+
+        // Sticky header
+        window.addEventListener("scroll", () => {
+            header.classList.toggle("scrolled", window.scrollY > 20);
+        });
+
+        // Mobile menu
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("open");
+            const icon = hamburger.querySelector("i");
+            icon.classList.toggle("fa-bars");
+            icon.classList.toggle("fa-xmark");
+        });
+
+        document.querySelectorAll(".nav-link").forEach(link => {
+            link.addEventListener("click", () => navLinks.classList.remove("open"));
+        });
+
+        // Typing effect
+        const words = ["Full Stack Developer", "Web Developer", "RPL Student", "Future Programmer"];
+        let wordIndex = 0, charIndex = 0, deleting = false;
+
+        function typeEffect() {
+            const word = words[wordIndex];
+            typingText.textContent = deleting
+                ? word.substring(0, charIndex--)
+                : word.substring(0, charIndex++);
+
+            let speed = deleting ? 55 : 85;
+
+            if (!deleting && charIndex > word.length) {
+                deleting = true;
+                speed = 1300;
+            } else if (deleting && charIndex < 0) {
+                deleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                charIndex = 0;
+                speed = 350;
+            }
+
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        // Scroll reveal
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add("visible");
+            });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
+        // Active navigation
+        const sections = document.querySelectorAll("main section");
+        const links = document.querySelectorAll(".nav-link");
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                links.forEach(link => link.classList.remove("active"));
+                const active = document.querySelector('.nav-link[href="#' + entry.target.id + '"]');
+                if (active) active.classList.add("active");
+            });
+        }, { threshold: 0.35 });
+
+        sections.forEach(section => sectionObserver.observe(section));
+
+        // Demo contact form feedback
+        function showToast(message) {
+            const toast = document.createElement("div");
+            toast.className = "toast";
+            toast.textContent = message;
+            toastContainer.appendChild(toast);
+            setTimeout(() => toast.remove(), 3200);
+        }
+
+        contactForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            showToast("Pesan siap dikirim! Hubungkan form ini ke backend/email untuk menerima pesan.");
+            contactForm.reset();
+        });
+    </script>
+</body>
+</html>
